@@ -1,0 +1,158 @@
+  body {
+
+      font-family: "Edu NSW ACT Foundation", cursive;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+
+      background-color: #7b99ec;
+
+      background-image: url(fondo.jpg);
+      background-size: 100%;
+  }
+
+  header {
+
+
+      padding: 25px;
+      font-size: 200%;
+      text-align: center;
+  }
+
+  .logo {
+      width: 5px;
+      margin-right: 5px;
+      float: left; 
+  }
+  header h1{
+    color: #ddd;
+    float: none;
+  }
+
+
+  .menu {
+      display: flex;
+      /*desplegamos en una linea*/
+      background-color: #e3d3d3;
+      /*color de fondo*/
+      padding: 5px;
+      /*espacio entre la caja*/
+      float: right;
+      /*ubicacion en la derecha*/
+  }
+
+  /*.(nombre de la clase)*/
+  .inicio a {
+      /* todos las etiquetas a dentro de menu*/
+      color: rgb(239, 156, 14);
+      /*color de la letra*/
+      text-align: center;
+      /*alineacion al centro*/
+      padding: 14px 16px;
+      /*color de la letra (arriba, derecha,abajo,izquierda)*/
+      text-decoration: none;
+      /*indicamos que no tiene decoracion*/
+  }
+
+  .inicio a:hover {
+      /*en el menu y cubra la etiqueta a cambia de color*/
+      background-color: darkorchid;
+      /*indicamos el color*/
+  }
+
+  .introduccion {
+      color: #ddd;
+      text-align: center;
+  }
+
+  .contacto {
+      color: #ddd;
+      text-align: center;
+  }
+
+  .reflexion {
+      color: #ddd;
+      text-align: center;
+  }
+
+  .galeria {
+      color: #ddd;
+      text-align: center;
+  }
+
+  .linea {
+      border-top: 5px solid #0077C0;
+      margin-bottom: 40px;
+  }
+
+  .contenedor-imagenes {
+      display: flex;
+      width: 85%;
+      margin: auto;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      border-radius: 3px;
+  }
+
+  .contenedor-imagenes .imagen {
+      width: 32%;
+      position: relative;
+      height: 250px;
+      margin-bottom: 5px;
+      box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75)
+  }
+
+  .imagen img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  .contenido {
+      margin-top: 5px;
+      /*le damos espacio de margen (top=arriba,bot=abajo,rigth=derecha,left=izquierda)*/
+  }
+
+  #imagen {
+      /* para centrar imagen #id .class*/
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+      height: 500px;
+  }
+
+  .texto {
+      /* modifica la tipografia*/
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      /* modifica el tamaño de la letra*/
+      font-size: small;
+  }
+
+  .footer-content {
+      background-size: cover;
+      
+      padding-top: 50px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .footer-content div {
+      color: aliceblue;
+      padding: 30px;
+  }
+
+  .footer-content h3 {
+      padding-left: 15px;
+  }
+
+  .footer-content p {
+      padding-top: 30px;
+      color: #ddd;
+  }
+
+  a:link,
+  a:visited {
+      color: #ddd;
+  }
